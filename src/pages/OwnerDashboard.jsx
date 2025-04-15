@@ -8,6 +8,8 @@ import {
 } from 'react-icons/fa';
 import axios from 'axios';
 
+console.log('API Base URL:', process.env.REACT_APP_API_URL);
+
 const API_BASE = process.env.REACT_APP_API_URL || '';
 
 const banks = [
